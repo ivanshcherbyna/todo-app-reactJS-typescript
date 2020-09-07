@@ -19,11 +19,10 @@ export const TodoFormes: React.FC<TodoFormesProps> = props => {
 			<input
 				ref={ref}
 				type='text'
-				id='title'
-				placeholder='Введите название дела'
+				id='title_text'
 				onKeyPress={keyPressHandler}
 			/>
-			<label htmlFor='title' className='active'>
+			<label htmlFor='title_text' className='active'>
 				Введите название дела
 			</label>
 		</div>
